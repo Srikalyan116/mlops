@@ -4,7 +4,6 @@
 
 This repository demonstrates how to deploy an end-to-end ML application using **CI/CD pipelines** and GitHub Actions, in combination with a container registry and Azure Web App. And provides a hands-on approach to deploying ML models, making it easier for both beginners developers to embrace this technology. By using CI/CD pipelines, GitHub Actions, a container registry, and Azure Web App, you can streamline the deployment process, ensuring that your machine learning models are always up to date and readily accessible.
 
-![image](https://github.com/Harly-1506/MLOps-Recommendation/assets/86733695/a43f5bd7-e25b-4df6-84a8-3d8f0fc2d99d)
 
 ## Getting Started 💡
 The data I use is [Amazon Sales Datasets](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset). I only use a few basic properties of the dataset, you can explore it further yourself
@@ -41,7 +40,7 @@ docker push <registry>.azurecr.io/<name>:latest
 
 ```
 ### Result
-![image](https://github.com/Harly-1506/MLOps-Recommendation/assets/86733695/16237030-94e2-4928-a5ab-815e458d2c7f)
+
 
 Website url: https://recommendationsystems.azurewebsites.net
 
