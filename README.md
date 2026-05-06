@@ -1,11 +1,11 @@
-# End to end machine learning: MLOps Recommendation system
+#  MLOps Recommendation
 
 ## Summary:
 
 This repository demonstrates how to deploy an end-to-end ML application using **CI/CD pipelines** and GitHub Actions, in combination with a container registry and Azure Web App. And provides a hands-on approach to deploying ML models, making it easier for both beginners developers to embrace this technology. By using CI/CD pipelines, GitHub Actions, a container registry, and Azure Web App, you can streamline the deployment process, ensuring that your machine learning models are always up to date and readily accessible.
 
 
-## Getting Started 💡
+## Getting Started
 The data I use is [Amazon Sales Datasets](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset). I only use a few basic properties of the dataset, you can explore it further yourself
 1. Data Ingestion :
     - In the Data Ingestion phase, the initial step involves reading the data from a CSV file.
@@ -22,7 +22,7 @@ The data I use is [Amazon Sales Datasets](https://www.kaggle.com/datasets/karkav
 ### Run in localhost:
 
 ```zsh
-git clone https://github.com/Harly-1506/MLOps-Recommendation.git
+git clone (https://github.com/Srikalyan116/mlops.git)
 python -m venv venv
 source venv/bin/activate
 #test training
@@ -48,5 +48,4 @@ Website url: https://recommendationsystems.azurewebsites.net
 
 In this project, I've only established the fundamental components. You can explore additional enhancements, such as Optimizing Model Parameters, Advanced Data Processing, Implement Feature Engineering, Continuous Integration. By incorporating these ideas and utilizing DVC for version control and data management, you can take your project to the next level, making it more robust, adaptable, and efficient.
 
----
-*Author: Harly*
+
